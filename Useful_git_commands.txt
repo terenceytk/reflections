@@ -1,0 +1,29 @@
+Useful git commands:
+
+1) git clone https://github.com/udacity/asteroids.git
+	-> this command will copy the whole asteroids repository to the current folder in terminal. After that, cd into the asteroids.
+
+2) git log
+	-> doing git log inside asteroids will list out all the commits IDs
+
+3) git config --global color.ui auto
+	-> getting colored output
+
+4) git checkout [commit-ID]
+	-> doing this inside repository will move the current commit to the specified one. In other words, this command is to move the files to the previous version using Git
+
+5) git init
+	-> doing git init inside a regular folder will add a ".git" file that makes the folder becomes Git respository
+
+6) git status
+	-> it shows what files have been changed since the last commit
+
+7) git add [file name]
+	-> it addes files to the staging area. To validate this, we can do something like this:
+		git add file1.txt
+		git add file2.txt
+		git status
+	-> Then these two new files will be shown under "Changes to be committed" after typing git status
+
+8) git commit
+	-> to make a commit. Then add comment in the pop-up sublime window
