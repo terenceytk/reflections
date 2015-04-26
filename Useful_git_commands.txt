@@ -27,3 +27,9 @@ Useful git commands:
 
 8) git commit
 	-> to make a commit. Then add comment in the pop-up sublime window
+
+9) git diff [commitID#1] [commitID#2]
+	-> to compare differences between two commits
+
+10) git diff
+	-> to compare difference between working directory and staging area
