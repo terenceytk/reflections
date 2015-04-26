@@ -1,0 +1,26 @@
+1) Question: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Answer: Efficient programmers who always work on complex software projects need to gain the access to older visions of the code, as they need to compare the current version with the previous codes for purposes such as code debugging, performance comparision and improvment. Or it is very typical that several people are working on the same file, and having easy access to the entire history can give the team a better vision on the progress of the project.
+
+2) Questions: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+Answer: The good things about manually commit a file are that the user can decide when he wants to submit the checkpoint for his work based on his need/preference. For instance, whenever he fixes typo or makes a logical change, he might want to make note on what the commit is about. Unlike google docs, which save automatically, the code that is being saved at particular timestamp may not even compile in a logical way, thus some commits may not really useful for later reference, and it could get more cluttered as the user has no control on when it should be saved. 
+Some of the bad things for manual save perhaps is that it is subjective when it comes to the decision when the user should create a commit. Commit can be too big or too small if the user does not commit in a good way, which could also cause a hard time looking back at the history later when people are trying to visit the file history. Last but not least, it could takes a bit more time for the user to create commit since they will need to enter a comment regarding to each commit they create.
+
+3) Question: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Answer: It is because some files are inter-related, for instance, html and css file. Therefore, a change of one file will also require changes on other files in a same repository, and in such case saving multiple files in one commit is necessary. On the other hand, if several files are not correlated, then using Google Docs in this case will be useful as a change of a file does not necessarily require a change of other files. 
+
+4) Question: How can you use the commands git log and git diff to view the history of files?
+
+Answer: typing git log inside the cloned repository will list out all the commit history and the ID, by doing git diff ID#1 ID#2, the user would be able to distinguish the difference between the two commits. 
+
+5) Question: How might using version control make you more confident to make changes that could break something?
+
+Answer: Version control can always allow the users to restore the older files, which can also be used as a back up.
+
+6) Now that you have your workspace set up, what do you want to try using Git for?
+
+Answer: I can take the advantage of Git at my workplace. For instance, I can collabrate my software test program with Git so that I can commit at different checkpoints during the development process.
+
+

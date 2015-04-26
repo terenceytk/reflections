@@ -1,0 +1,8 @@
+1) Question: What happens when you initialize a repository? Why do you need to do it?
+
+Answer: initializing a repository will generate a .git file inside the folder that allows the user to run the Git commands corresponding to this repository. By doing so, the user can keep track of the history of the project by doing git log or any other git commands.
+
+2) Question: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Answer: Staging area allows the user to add files that have been changed into it, and this is a stage before the user is making a commit. This is to ensure that each commit is made with respecting to one single logic change or whatever change the user has made, while the other files in the working directory remain the same compared to the last commit
+
