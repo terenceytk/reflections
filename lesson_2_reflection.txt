@@ -6,3 +6,15 @@ Answer: initializing a repository will generate a .git file inside the folder th
 
 Answer: Staging area allows the user to add files that have been changed into it, and this is a stage before the user is making a commit. This is to ensure that each commit is made with respecting to one single logic change or whatever change the user has made, while the other files in the working directory remain the same compared to the last commit
 
+3) Question: How can you use the staging area to make sure you have one commit per logical change?
+
+Answer: Whenever we have one logical change, we can do git add to add the changed file to the staging area, then doing git diff —staged will compare the difference between the file in the staging area and the file in the latest commit in the repository
+
+4) Question: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Answer: Branches can offer the user an option of creating an experimental version of the project, without messing with the main master files in the project
+
+5) Question: How do the diagrams help you visualize the branch structure?
+
+Answer: It shows all the branches and the master flow of every commit made
+
